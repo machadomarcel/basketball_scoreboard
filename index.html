@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <title>Basketball Scorecard</title>
+  </head>
+  <body>
+    <div class="container">
+      
+      <div>
+        <section id="HOME SECTION">
+        <h3>RAPTORS</h3>
+        <div id="score">
+          <div id="scoreboard-1">0</div>
+        </div>
+        <div id="homeplayer">
+          <button class="add-one-btn" onclick="addonepoint()">+1</button>
+          <button class="add-two-btn" onclick="addtwopoint()">+2</button>
+          <button class="add-three-btn" onclick="addthreepoint()">+3</button>
+        </div>
+      </section>
+      </div>
+      <div>
+        <section id="VISITANT SECTION">
+        <h3>VISITANT</h3>
+        <div id="score">
+          <div id="scoreboard-2">0</div>
+        </div>
+        <div id="visitantplayer">
+          <button class="add-one-btn" onclick="addonepointguest()">+1</button>
+          <button class="add-two-btn" onclick="addtwopointguest()">+2</button>
+          <button class="add-three-btn" onclick="addthreepointguest()">+3</button>
+        </div>
+      </div>
+    </section>
+    
+
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
